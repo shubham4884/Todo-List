@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  margin-top: 20px;
+  color: #b40303;
+  text-align: center;
+}
+#books-list {
+  width: 70%;
+  border-collapse: collapse;
+}
+#books-list td {
+  padding: 25px;
+}
+#book-requirements {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.book-info {
+  border-bottom: 2px dotted var(--blue);
+}
+.book-info i {
+  padding: 5px;
+  font-size: 20px;
+}
+.book-info i:hover,
+.close-modal:hover,
+.cancel-removal:hover {
+  cursor: pointer;
+}
+.fa-check {
+  color: var(--green);
+  transition: 0.3s;
+}
+.fa-check:hover {
+  color: var(--dark-green);
+}
+.fa-times,
+.fa-trash-alt {
+  color: var(--red);
+  transition: 0.3s;
+}
+.fa-times:hover,
+.fa-trash-alt:hover {
+  color: var(--dark-red);
+}
+#header{
+  background-color: rgb(188, 207, 201);
+  padding: 20px 60px;
+  border: 40%;
+}
+h2{
+  margin-top: 20px;
+  color: #000000;
+  text-align: center;
+}
+#title{
+  border: 8px;
+  border-radius: 4px;
+  background-color:wheat;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+#Description{
+  border: 8px;
+  border-radius: 4px;
+  background-color:wheat;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+#duedate{
+  border: 8px;
+  border-radius: 4px;
+  background-color:wheat;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+#getPririty{
+  border: 8px;
+  border-radius: 4px;
+  background-color:wheat;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #1224ea;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  margin-left: 45%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
